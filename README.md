@@ -190,7 +190,7 @@ ORDER BY profit ASC;
 
 ```bash
 # 1. Clone
-git clone https://github.com/oleksii-shynkaruk/superstore-analytics.git
+git clone https://github.com/shynkaruk00-collab/superstore-analytics.git
 cd superstore-analytics
 
 # 2. Create database and load schema + CSVs
