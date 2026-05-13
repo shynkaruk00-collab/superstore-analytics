@@ -1,6 +1,6 @@
 # Superstore Analytics — Sales, Customers & Pareto
 
-> End-to-end data analytics portfolio project — 4-year analysis of $2.33M in retail sales across US + Canada, built with **PostgreSQL · SQL · Python (pandas) · Tableau Public**.
+> End-to-end data analytics portfolio project — 4-year analysis of $2.33M in retail sales across US + Canada, built with **PostgreSQL · SQL · Tableau Public**.
 
 **🔗 Live Dashboards:** [public.tableau.com/.../SuperstoreAnalytics](https://public.tableau.com/app/profile/oleksii.shynkaruk/viz/SuperstoreAnalyticsSalesCustomersPareto/Executive_Overview)
 
@@ -39,7 +39,6 @@ Two dashboards answer these questions for the executive layer and the customer t
 |-------|------|---------|
 | Database | **PostgreSQL** | Data warehouse, query engine |
 | Query Language | **SQL** (CTE, window functions, NTILE, percentile) | Data cleaning, KPIs, RFM, cohorts |
-| Processing | **Python · pandas** | RFM scoring, CLV calculation, CSV export |
 | Visualization | **Tableau Public** | Interactive dashboards |
 | Version Control | **Git · GitHub** | This repository |
 
@@ -50,7 +49,6 @@ Two dashboards answer these questions for the executive layer and the customer t
 ```
 .
 ├── README.md                  ← you are here
-├── PROGRESS.md                ← chronological work log
 ├── data/
 │   ├── orders.csv             ← 10,194 line items, 21 columns
 │   ├── people.csv             ← regional managers
